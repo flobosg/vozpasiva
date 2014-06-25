@@ -6,7 +6,7 @@ if [ "$1" = "" ]; then
 fi
  
 egrep -n -i --color \
- "\\b(es|era|fue|será|sería|sido|sea|fuera|fuese|fuere)\
-\\b[ ]*(\w+ado|\w+ada|\w+ido\w+ida|\w+ído\w+ída)\\b" $*
+ "\\b(es|era|fue|será|sería|sido|sea|fuera|fuese|fuere|fueron)\
+\\b[ ]*(\w+ados?|\w+adas?|\w+idos?\w+idas?|\w+ídos?\w+ídas?)\\b" $*
  
 exit $?
